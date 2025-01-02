@@ -6,11 +6,15 @@ The workflow includes data preprocessing, training different classifiers, evalua
 
 ## Project Structure
 
-src/ classifiers/ : Contains the implementations of the classification models. utils/ : Contains utility functions, such as data preprocessing and evaluation. observation_notebooks/ : Contains Jupyter notebooks with trial-and-error analysis.
+- **src/** : Contains the source code for the project.
+  - **classifiers/** : Contains the implementations of the classification models.
+  - **utils/** : Contains utility functions, such as data preprocessing and evaluation.
+  - **observation_notebooks/** : Contains Jupyter notebooks with trial-and-error analysis.
 
-data/ : Contains the mushroom dataset from Kaggle
+- **data/** : Contains the mushroom dataset from Kaggle.
 
-main.ipynb : The main file to run, contains all the instructions to carry out the tasks.
+- **main.ipynb** : The main file to run, contains all the instructions to carry out the tasks.
+
 
 
 ## Usage
